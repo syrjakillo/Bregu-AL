@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery with Lightbox</title>
+    <link rel="stylesheet" href="galeria.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Galeria</h1>
+        <div class="gallery">
+            <img src="https://lh3.googleusercontent.com/p/AF1QipPX-Et7IcZU_EWvY0gaa2U664UPbWiydesw1QCE=s1360-w1360-h1020"
+                alt="Image 1">
+            <img src="https://lh3.googleusercontent.com/p/AF1QipOpHmYlNhQImLZRLz89b3O8J33G8KtrntC2u78-=s1360-w1360-h1020"
+                alt="Image 2">
+            <img src="https://lh3.googleusercontent.com/p/AF1QipMjFgWj_Jk4WvZGauFyLbjTi9dUDJ9Alr0aShVV=s1360-w1360-h1020"
+                alt="Image 3">
+            <img src="https://lh3.googleusercontent.com/p/AF1QipMHDUPN8aFcn5PqXoIEgtTj1X4453DGQXw5ZRah=s1360-w1360-h1020"
+                alt="Image 4">
+            <img src="https://lh3.googleusercontent.com/p/AF1QipPUh9oJq9alRZgsZ-sPgZc6CozgKEuN-r_5XyIh=s1360-w1360-h1020"
+                alt="Image 5">
+            <img src="https://lh3.googleusercontent.com/p/AF1QipMcckoHzTy1SZVo4_vAtmVVi77oU560HofqO8gg=s1360-w1360-h1020"
+                alt="Image 6">
+            <img src="https://lh3.googleusercontent.com/p/AF1QipNNYh_MIaYohdBSs_KDcMateuuFpOw0Idm-DjDg=s1360-w1360-h1020"
+                alt="Image 7">
+            <img src="https://lh3.googleusercontent.com/p/AF1QipN13HWQ_mHBegOhgm2Vfws1bNXTlrJlUznLWaaC=s1360-w1360-h1020"
+                alt="Image 8">
+            <img src="https://lh3.googleusercontent.com/p/AF1QipNEzvPvxxpsQNG2lvrF8O5H3W7bpjxg2KduhPsY=s1360-w1360-h1020"
+                alt="Image 9">
+            <img src="https://lh3.googleusercontent.com/p/AF1QipNhjPI0uAFcb7WD-xO4SkvpDbvAYB8aWfgIGDH6=s1360-w1360-h1020"
+                alt="Image 10">
+            <img src="https://lh3.googleusercontent.com/p/AF1QipO9JNUk44vcSVri28Qww4eDKCVtzvRGNS2cytZL=s1360-w1360-h1020"
+                alt="Image 11">
+            <img src="https://lh3.googleusercontent.com/p/AF1QipN96RZZkEWYRhsF-wk9vIDxGCS4a67m8IpYqQjw=s1360-w1360-h1020"
+                alt="Image 12">
+        </div>
+    </div>
+
+    <!-- Lightbox container -->
+    <div id="lightbox">
+        <!-- Close button -->
+        <span id="close-btn" onclick="closeLightbox()">&times;</span>
+
+        <!-- Main lightbox image -->
+        <img id="lightbox-img" src="" alt="lightbox image">
+
+        <!-- Thumbnails container -->
+        <div id="thumbnail-container" class="thumbnail-container">
+            <!-- Thumbnails will be added dynamically using JavaScript -->
+        </div>
+
+        <!-- Previous and Next buttons -->
+        <button id="prev-btn" onclick="changeImage(-1)">&lt; Prev</button>
+        <button id="next-btn" onclick="changeImage(1)">Next &gt;</button>
+    </div>
+
+    <!-- Footer section -->
+    <footer>
+        <p>Vizitoni showroom-in tonë!</p>
+        <p>Ju ftojmë të na vizitoni në showroom-in tonë të bukur në Pogradec. Këtu mund të shihni gamën tonë të gjerë të produkteve të dritareve PVC dhe të konsultoheni me ekspertët tanë të përvojës. Jemi të përkushtuar që të ofrojmë zgjidhje të përshtatshme për nevojat tuaja të dritareve dhe dritareve të PVC.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "MuseoModerno", sans-serif;
+}
+body{
+    font-family: "MuseoModerno", sans-serif;
+    background-color:rgb(30, 29, 29);
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+
+}
+a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+    transition: all ease 0.5s;
+}
+a:hover{
+    color: #ff523b;
+}
+a.active{
+    color: #ff523b;
+}
+p{
+    color: #e33232;
+}
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.col-2{
+    flex-basis: 50%;
+    min-width: 300px;
+
+}
+.col-2 img{
+    border: 1px solid #ddd;
+    border-radius: 4px;;
+    max-width: 100%;
+    padding: 50px 0;
+
+}
+.col-2 h1{
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0;
+}
+.col-2 h1 span{
+    color: #ff523b;
+}
+
+.col-2 p{
+font-size: 20px;
+}
+.btn{
+    display: inline-block;
+    background: #ff523b;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: background 0.5s;
+}
+.btn:hover{
+    background: #563434;
+}
+.header{
+    background: radial-gradient(#fff #f7cccc);
+    background-image: url(https://img.freepik.com/free-photo/black-white-background_23-2150530990.jpg);
+    background-size: cover;
+    margin-bottom: 0%;
+}
+.header .row{
+    margin-top: 60px;
+}
+.categories{
+    margin: 70px 0;
+}
+.col-3{
+    flex-basis: 30%;
+    min-width: 250px;
+    margin-bottom: 30px;
+}
+.col-3 img{
+    width: 550px;
+    height: 300px;
+    width: 100%;
+}
+.small-container{
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.col-4{
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+}
+.col-4 img{
+width: 100%;
+}
+.row-2{
+    margin: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.col-4{
+    flex-basis: 31%;
+  background: rgb(255, 255, 255);
+  border-radius: 10px;
+  margin-bottom: 5%;
+  padding: 20px 12px;
+  box-sizing: border-box;
+  transition: 0.5s;
+}
+h3{
+    text-align: center;
+    font-weight: 600px;
+    margin: 10px 0;
+
+}
+.col-4:hover{
+    box-shadow: pink;
+
+}
+.h2{
+    text-align: center;
+    color: aliceblue;
+}
+
+
+
+
+.contact-info {
+    background-color: #000; /* black background */
+    color: #fff; /* white text */
+    padding: 20px;
+    text-align: center;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px; /* space below the logo */
+}
+
+.logo {
+    max-width: 100px; /* adjust as needed */
+    height: auto;
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin: 0 5px;
+    color: #333;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.social-icons a:hover {
+    background-color: #ff523b;
+    color: #fff;
+}
+
+.footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer .small-container {
+    max-width: 100%;
+    padding: 0 20px; /* added padding to center align the text */
+}
+
+.footer .footer-text {
+    background-color: #333; /* dark background for the text */
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block; /* ensures it wraps around content */
+}
+
+.footer .footer-text p {
+    margin-bottom: 5px;
+}
+
+.footer a {
+    color: #fff;
+}
